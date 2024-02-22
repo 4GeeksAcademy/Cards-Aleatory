@@ -1,1 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  margin: 10px auto;
+  padding: 0 10px;
+  border-radius: 20px;
+  height: 475px;
+  width: 300px;
+  font-family: "Noto Sans Japanese";
+  line-height: 1.2;
+}
+
+.palo-arriba {
+  font-size: 120px;
+  flex: 1;
+}
+
+.palo-abajo {
+  font-size: 120px;
+  flex: 1;
+  rotate: 180deg;
+}
+
+.numero {
+  font-size: 150px;
+  flex: 1;
+  align-self: center;
+}
+
+.corazon {
+  color: red;
+}
+
+.diamante {
+  color: red;
+}
+
+.trebol {
+  color: black;
+}
+
+.pica {
+  color: black;
+}
+
+#boton {
+  display: flex;
+  margin: 5px auto;
+  border-radius: 10px;
+  background-color: chartreuse;
+}
